@@ -1,0 +1,205 @@
+@import url(http://fonts.googleapis.com/css?family=Abel);;
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	height: 100%;
+	background-color: #000;
+}
+
+html {
+	height: 100%;
+}
+
+.login {
+	color: #000;
+	line-height: 3em;
+	font-size: 1.5em;
+	background: none;
+}
+
+.navbar {
+	background-color: #232526;
+	height: 5em;
+	z-index: 9998;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #FFFFFF;
+	font-family: 'Abel', sans-serif;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+	color: #BEBEBF;
+	background-color: transparent;
+}
+
+.jumbotro {
+	background-image: ;
+}
+
+.head {
+	text-align: center;
+}
+
+.navbar-brand {
+	height: ;
+}
+
+#form1 {
+	margin-top: -2em;
+	margin-right: 2em;
+}
+
+.post {
+	background-color: #FFF;
+	overflow: hidden;
+	box-shadow: 0 0 1px #CCC;
+}
+
+.post img {
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+}
+
+.post .content {
+	padding: 15px;
+}
+
+.post .author {
+	font-size: 11px;
+	color: #737373;
+	padding: 25px 30px 20px;
+}
+
+.post .post-img-content {
+	height: 196px;
+	position: relative;
+}
+
+.post .post-img-content img {
+	position: absolute;
+}
+
+.post .post-title {
+	display: table-cell;
+	vertical-align: bottom;
+	z-index: 2;
+	position: relative;
+}
+
+.post .post-title b {
+	background-color: rgba(51, 51, 51, 0.58);
+	display: inline-block;
+	margin-bottom: 5px;
+	color: #FFF;
+	padding: 10px 15px;
+	margin-top: 5px;
+}
+
+.center {
+	text-align: center;
+}
+
+.divider {
+	margin: 20px auto 40px;
+	padding-top: 25px;
+	width: 440px;
+	height: 0;
+	border-bottom: 1px solid #E5E5E5;
+	line-height: 0;
+	color: #B6B6B6;
+}
+
+.formwrapper {
+	display: block;
+	text-align: center;
+	width: 500px;
+	margin-left: 20em;
+}
+
+.userinfo {
+	margin-bottom: 3em;
+	padding-left: 5em;
+	width: 30em;
+	height: 5em;
+	border: 2px solid #E5E5E5;
+	font-size: 1em;
+}
+
+.btn-facebook:hover, .btn-facebook:focus, .btn-facebook:active, .btn-facebook.active, .open > .dropdown-toggle.btn-facebook {
+	color: #FFF;
+	background-color: #2D4373;
+	border-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-facebook {
+	color: #FFF;
+	background-color: #49659F;
+	border-color: #636363;
+	border-radius: 3px;
+	border-width: 1.5px;
+	margin-bottom: 1em;
+}
+
+.btn-twitter:hover, .btn-twitter:focus, .btn-twitter:active, .btn-twitter.active, .open > .dropdown-toggle.btn-twitter {
+	color: #FFF;
+	background-color: #65ACEE;
+	border-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-twitter {
+	color: #FFF;
+	background-color: #55ACEE;
+	border-width: 1.5px;
+	margin-bottom: 1em;
+}
+
+.action {
+	height: 3em;
+	border: none;
+	border-radius: 1em;
+}
+
+.Footer {
+	margin-top: 1em;
+	clear: both;
+	padding: 10px 0;
+	background-color: #232526;
+	font-size: 0.875em;
+	height: 273px;
+}
+
+.Footer .copyright {
+	color: #ADAFB1;
+	padding: 0 0 0 210px;
+}
+
+.Footer .nav .subnav {
+	margin: 0;
+}
+
+.Footer .list.links {
+	height: 40px;
+	line-height: 40px;
+}
+
+.Footer .nav .list {
+	margin-bottom: 20px;
+}
+
+.Footer .list:first-child {
+	margin-left: 0;
+}
+
+.Footer .list.links .item {
+	float: left;
+	margin: 0 15px;
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
