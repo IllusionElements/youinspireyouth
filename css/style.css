@@ -1,9 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=Abel);;
+@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(librerie.css);
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Abel', sans-serif;
+}
 body {
 	padding-top: 50px;
 	padding-bottom: 20px;
 	height: 100%;
-	background-color: #000;
+	background-color: #ebeeed;
+	color: #424b51;
 }
 
 html {
@@ -203,3 +209,51 @@ li {
 	display: list-item;
 	text-align: -webkit-match-parent;
 }
+
+.vids {
+	float: right;
+}
+
+.aside {
+	background: url('http://cdn-jarvis-ftw.9gaging.com/media/photo/p3gK5P9Wq_360w_v1.jpg') center;
+	background-size: cover;
+	float: left;
+	height: 10em
+	width: 10em;
+}
+
+video#bgvid {
+/*position: fixed; right: 0; bottom: 0;
+*/
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url(polina.jpg) no-repeat;
+margin-top: -10em;
+/*background-size: cover;*/
+overflow: hidden;
+z-index: -1000;
+}
+
+.vid {
+	margin-top: -50em;
+	color: #fff;
+
+}
+
+.divlogin {
+	height: 20em;
+	color: #fff;
+	background-image: url("img/bg.jpg");
+	margin-top: 5px;
+	width: 100%;
+}
+
+p.divlogin {
+	margin-top: 20px;
+}
+
+.jumbotron {
+	margin-bottom: 200px;
+}
+
+
